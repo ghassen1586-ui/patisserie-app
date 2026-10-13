@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.top-bar {
+  background: #1a2a3a;
+  color: #fafbfd;
+  
+  padding: 14px 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.top-bar a {
+  color: #fafbfd;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  
+}
+
+.top-bar a:hover {
+  color: white;
+}
+.right a {
+  font-size: 1rem;
+}
+.center img {
+  height: 100px;
+  width: auto;
+}
+.top-bar2 {
+    font-size: 0.75rem;
+  background: #c7a614;
+  color: #f5f6f7;
+  padding: 1px 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

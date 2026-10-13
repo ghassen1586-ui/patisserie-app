@@ -1,0 +1,8 @@
+<h2>list des utilisateurs:</h2>
+
+@for(item of users; track item.name){
+<li>{{item.name}}</li>
+
+}@empty{
+    <li>no items found</li>
+}

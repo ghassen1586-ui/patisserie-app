@@ -1,0 +1,22 @@
+<div class="center">
+        <img src="Gazelleww3.png" alt="Gazelle">
+</div>
+
+
+
+<div class="grid">
+    
+  @for (cor of corns; track cor.id) {
+    <div class="card">
+      <div class="card-img">
+        <img src="{{cor.link}}" alt="{{cor.name}}">
+      </div>
+      <div class="card-body">
+        <div class="name">{{cor.name}}</div>
+        <div class="comment">{{cor.comment}}</div>
+        <div class="price">{{cor.price}} €</div>
+        <button (click)="addtopanier(cor.id, cor.link, cor.name, cor.comment, cor.price, cor.pieces)">Ajouter au panier</button>
+      </div>
+    </div>
+  }
+</div>
